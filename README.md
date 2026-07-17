@@ -6,7 +6,7 @@ This repository includes a python script to polarize a vcf which contains a targ
 
 ## How to take the polarization decision ?
 
-<img width="1890" height="1005" alt="image" src="https://github.com/user-attachments/assets/886c09e8-f9d1-42cc-8ec0-32247e44c4ae" />
+<img width="1890" height="1005" alt="image" src="https://github.com/user-attachments/assets/2a80709b-5457-4616-8f42-90d0fa4b21b8" />
 
 ## Dependencies
 
