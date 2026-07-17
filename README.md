@@ -10,11 +10,10 @@ This repository includes a python script to polarize a vcf which contains a targ
 
 ## Dependencies
 
-# Dependencies
 - python 3.12
 - Check [`requirements.txt`](./requirements.txt) for needed python packages
 
-## Installation
+To install the dependencies, run the following command line :
 
 ```bash
 pip install -r requirements.txt
