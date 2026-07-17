@@ -41,7 +41,9 @@ python Polarisation.py -i <VCF> -o <OUT_VCF> -t <OUT_TABLE> --pop <pop.txt> --ou
 -o <OUT_VCF> Name of the output VCF after polarization (to use with caution)
 
 -t <OUT_TABLE> Name of the output table containg the following columns :
+
 "CHROM   POS     REF_ORIG        ALT_ORIG        ANC_ALLELE      DER_ALLELE      CASE    STATUS"
+
 '_ORIG' refers to the information at this locus in the vcf before the polarization. 'ANC_ALLELE' and 'DER_ALLELE' refer respectively to the ancestral site and the derived allele after the polarization. 
 'CASE' and 'STATUS' inform us on whether the locus could be polarized. If it couldn't (due to missing data or an ambiguous allele configuration), 'STATUS' will display the string 'NOPOL'. Otherwise, the string will inform on which case scenario of allele distribution allowed us to polarize, along with the column 'CASE'. Note that the case scenario rarely matters to the user, in which case it's only a matter of whether the column 'STATUS' displays "NOPOL" (no polarization at this locus) or not (polarization at this locus).
 
